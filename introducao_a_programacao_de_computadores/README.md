@@ -24,7 +24,7 @@ No nível novato, o programa permite cadastrar e exibir duas cartas de cidades c
 1. Clone o repositório:
 
 ```bash
-git clone <url_do_seu_repositorio>
+git clone https://github.com/RuanCarlosCandido/estacio/tree/main/introducao_a_programacao_de_computadores
 ```
 
 2. Compile o programa:
