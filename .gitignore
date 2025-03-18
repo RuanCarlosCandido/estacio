@@ -1,0 +1,61 @@
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.iml
+
+# Compilados e binários
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.class
+*.jar
+*.pyc
+__pycache__/
+*.o
+*.out
+*.a
+*.lib
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Dependências e pacotes
+node_modules/
+vendor/
+*.lock
+
+# Ambientes virtuais
+venv/
+.env
+
+# Arquivos de build
+build/
+dist/
+
+# Cobertura de testes
+coverage/
+*.lcov
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos sensíveis ou pessoais
+.env
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
