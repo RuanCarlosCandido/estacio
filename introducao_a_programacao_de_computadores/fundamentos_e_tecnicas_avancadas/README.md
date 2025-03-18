@@ -38,15 +38,15 @@ git clone https://github.com/RuanCarlosCandido/estacio.git
 2. Navegue até o diretório desejado (`iniciante`, `aventureiro`, etc.):
 
 ```bash
-cd introducao_a_programacao_de_computadores/iniciante
+cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/iniciante
 ```
 ou
 ```bash
-cd introducao_a_programacao_de_computadores/aventureiro
+cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/aventureiro
 ```
 ou
 ```bash
-cd introducao_a_programacao_de_computadores/mestre
+cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/mestre
 ```
 
 3. Compile o programa (ajuste o nome do arquivo `.c` conforme o nível atual):
