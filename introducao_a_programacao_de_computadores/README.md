@@ -1,24 +1,28 @@
-# Super Trunfo de Países
+# Super Trunfo
 
-Este repositório contém implementações do jogo **Super Trunfo de Países**, desenvolvido para as atividades da disciplina **Introdução à Programação de Computadores**. O projeto está organizado em níveis progressivos de dificuldade, cada um em seu respectivo diretório:
+Este repositório contém implementações do jogo **Super Trunfo**, desenvolvido para as atividades da disciplina **Introdução à Programação de Computadores**. O projeto está organizado em níveis progressivos de dificuldade, cada um em seu respectivo diretório:
 
 - `iniciante`
 - `aventureiro`
+- `mestre`
 - (futuros níveis)
+
+Esses níveis estão presentes nos módulos **Desenvolvendo a Lógica do Jogo** e **Fundamentos e Técnicas Avançadas**.
 
 ## Descrição Geral
 
-Cada nível contém um programa em linguagem `C` que permite cadastrar e exibir duas cartas representando cidades, com informações detalhadas que evoluem conforme o nível:
+Cada nível contém um programa em linguagem `C` que permite cadastrar e exibir duas cartas representando cidades ou países, com informações detalhadas que evoluem conforme o nível:
 
-- Estado
+- Estado/País
 - Código da Carta
-- Nome da Cidade
+- Nome da Cidade/País
 - População
 - Área (km²)
 - PIB (bilhões de reais)
 - Número de Pontos Turísticos
+- Densidade Demográfica (habitantes por km², em níveis mais avançados)
 
-Além disso, níveis mais avançados introduzem cálculos adicionais, como densidade populacional e PIB per capita.
+Além disso, níveis mais avançados introduzem cálculos adicionais e comparações mais sofisticadas entre as cartas.
 
 ## Tecnologias Utilizadas
 
@@ -35,18 +39,17 @@ Cada nível possui seu próprio diretório com o código-fonte e o executável c
 git clone https://github.com/RuanCarlosCandido/estacio.git
 ```
 
-2. Navegue até o diretório desejado (`iniciante`, `aventureiro`, etc.):
+2. Navegue até o diretório do módulo e nível desejado:
 
 ```bash
-cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/iniciante
+cd introducao_a_programacao_de_computadores/{modulo}/{nivel}
 ```
-ou
+
+Substitua `{modulo}` por `desenvolvendo_a_logica_do_jogo` ou `fundamentos_e_tecnicas_avancadas` e `{nivel}` por `iniciante`, `aventureiro` ou `mestre`.
+
+Exemplo:
 ```bash
-cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/aventureiro
-```
-ou
-```bash
-cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/mestre
+cd introducao_a_programacao_de_computadores/desenvolvendo_a_logica_do_jogo/mestre
 ```
 
 3. Compile o programa (ajuste o nome do arquivo `.c` conforme o nível atual):
@@ -55,14 +58,9 @@ cd introducao_a_programacao_de_computadores/fundamentos_e_tecnicas_avancadas/mes
 gcc nome_do_programa.c -o nome_do_programa
 ```
 
-Exemplo para nível iniciante:
+Exemplo para nível mestre:
 ```bash
-gcc super_trunfo.c -o super_trunfo
-```
-
-Exemplo para nível aventureiro:
-```bash
-gcc super_trunfo_aventureiro.c -o super_trunfo_aventureiro
+gcc super_trunfo_mestre.c -o super_trunfo_mestre
 ```
 
 4. Execute o programa:
@@ -100,3 +98,4 @@ A saída será formatada com todos os detalhes inseridos e cálculos específico
 ## Autor
 
 - **Ruan**
+
