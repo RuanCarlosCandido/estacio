@@ -44,6 +44,10 @@ ou
 ```bash
 cd introducao_a_programacao_de_computadores/aventureiro
 ```
+ou
+```bash
+cd introducao_a_programacao_de_computadores/mestre
+```
 
 3. Compile o programa (ajuste o nome do arquivo `.c` conforme o nível atual):
 
